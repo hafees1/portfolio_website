@@ -1,0 +1,141 @@
+/* === General Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === Body === */
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  background: linear-gradient(to bottom, #1b1e24, #2e3440);
+  color: #f0f0f0;
+  text-align: center;
+  line-height: 1.6;
+  padding-bottom: 50px;
+}
+
+/* === Header === */
+h1 {
+  color: #f7e26b;
+  font-size: 3em;
+  margin-top: 20px;
+  text-shadow: 2px 2px 8px #000;
+  letter-spacing: 2px;
+}
+
+/* === Navigation Bar === */
+nav {
+  background: linear-gradient(to bottom, #444b5a, #2e3440);
+  padding: 15px 0;
+  border-top: 2px solid #6a7cff;
+  border-bottom: 2px solid #6a7cff;
+  margin: 20px 0;
+}
+
+nav a {
+  color: #cdd9ff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+  text-shadow: 0px 0px 6px #80aaff;
+}
+
+/* === Sections === */
+section {
+  background: rgba(255, 255, 255, 0.05);
+  width: 80%;
+  margin: 25px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+h2 {
+  color: #9ad0ff;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 4px #000;
+}
+
+h3 {
+  font-weight: normal;
+  color: #e6e6e6;
+}
+
+/* === Image === */
+img {
+  border-radius: 15px;
+  margin: 15px;
+  border: 3px solid #6a7cff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+/* === Lists === */
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 5px 0;
+}
+
+/* === Table === */
+table {
+  width: 50%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+th, td {
+  border: 1px solid #6a7cff;
+  padding: 10px;
+}
+
+th {
+  background: rgba(106, 124, 255, 0.3);
+}
+
+/* === Form === */
+form {
+  margin-top: 15px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin: 6px;
+  border: 1px solid #6a7cff;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  width: 250px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #9ad0ff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* === Horizontal Rule === */
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #6a7cff, transparent);
+  margin: 20px 0;
+}
+
+/* === Links in text === */
+a {
+  color: #9ad0ff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
